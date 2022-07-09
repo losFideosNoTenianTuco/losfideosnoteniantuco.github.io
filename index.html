@@ -99,14 +99,13 @@
   <body>
     <header>
       <h1>Mozilla</h1>
-      <!-- insert <img> element, link to the small
-          version of the Firefox logo -->
+     <img src="images/firefox_logo-only_RGB-120w.png">
 
     </header>
 
     <main>
       <article>
-        <!-- insert iframe from youtube -->
+        <iframe src="<iframe width="560" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>">
 
         <h2>Rocking the free web</h2>
 
@@ -116,12 +115,13 @@
       </article>
 
       <div class="further-info">
-        <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+          <img src="images/mdn.svg" title="mdn" alt="an image of mdn">
         </a>
         <a href="https://www.mozilla.org/">
-          <img>
+          <img srcset="images/firefox-addons-120w.jpg 120w, images/firefox-addons-400w.jpg 400w" 
+          sizes="media(max-width: 500px), 120px, 400px"
+          alt="firefox-addons">
         </a>
         <a href="https://addons.mozilla.org/">
           <img>
